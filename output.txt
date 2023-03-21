@@ -124,3 +124,45 @@ Single Family Residence (SFR)
 Primary Residence
 
 
+Row 0
+Title
+Owner
+Asset Type
+Unpaid Principal Balance
+Loan Term
+Note Rate
+PPP
+Value
+LTV
+PropType
+Occupancy
+
+
+Row 1
+East Cottonwood
+ECOT
+Mortgage Token
+$2,000,000.00 
+15 years
+7.00%
+____
+$2,500,000.00 
+75%
+Single Family Residence (SFR)
+Secondary Residence
+
+
+Row 2
+Laguna Hills
+LAHILLS
+Mortgage Token
+$1,500,000.00 
+30 years
+5.50%
+____
+$2,000,000.00 
+75%
+Single Family Residence (SFR)
+Primary Residence
+
+
