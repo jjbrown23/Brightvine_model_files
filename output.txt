@@ -1,6 +1,0 @@
-Row 0
-Owner ECOT has a Mortgage Token on this property: East Cottonwood
-
-Row 1
-Owner LAHILLS has a Mortgage Token on this property: Laguna Hills
-
