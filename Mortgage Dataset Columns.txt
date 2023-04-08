@@ -30,8 +30,20 @@ Borrower 1 Credit Score Value (B1CreditScore)
 Borrower 2 Credit Score Value (B2CreditScore)
 ---Credit Scores are separated into a range: 1=<620, 2=620 < 660, 3=660 < 700, 4=700 < 760, 5=760 or greater, 9 = Missing or Not Applicable
 
+---- Currently in NewData, not main dataset ----
+
 Loan Performance (Performance)
 ---Current status of the loan payments (Current/Delinquent - Most recent payment paid on time or currently has a late payment [>15 days after due date])
+--- Categorical, not used for clustering, just for informing investors of good or bad investment
+
+Original Property Value (PropertyValue)
+---Property value at loan origination, calculated by OriginationValue / LTVRatio
+--- Not used for clustering, just for calculating change
+
+Current Property Value (CurrentPropertyValue)
+---Property value right now, based on appraisal value pulled from Zillow
+--- Not used for clustering, just for calculating change
 
 Property Value Change (ValueChange)
----The change in property value since loan origination - Calculated by pulling current home value from zillow and comparing it to orginal value (value found by calculating OriginationValue / LTVRatio)
+---The percent change in property value since loan origination - (PropertyValue - CurrentPropertyValue) / PropertyValue
+--- Not used for clustering, just for informing investors of good or bad investment
