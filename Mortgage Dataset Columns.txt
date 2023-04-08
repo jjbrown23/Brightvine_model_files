@@ -29,3 +29,9 @@ Borrower 1 Credit Score Value (B1CreditScore)
 
 Borrower 2 Credit Score Value (B2CreditScore)
 ---Credit Scores are separated into a range: 1=<620, 2=620 < 660, 3=660 < 700, 4=700 < 760, 5=760 or greater, 9 = Missing or Not Applicable
+
+Loan Performance (Performance)
+---Current status of the loan payments (Current/Delinquent - Most recent payment paid on time or currently has a late payment [>15 days after due date])
+
+Property Value Change (ValueChange)
+---The change in property value since loan origination - Calculated by pulling current home value from zillow and comparing it to orginal value (value found by calculating OriginationValue / LTVRatio)
