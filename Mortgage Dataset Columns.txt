@@ -47,3 +47,7 @@ Current Property Value (CurrentPropertyValue)
 Property Value Change (ValueChange)
 ---The percent change in property value since loan origination - (PropertyValue - CurrentPropertyValue) / PropertyValue
 --- Not used for clustering, just for informing investors of good or bad investment
+
+Price (Price)
+---The price being offered for the loan, cost an investor would pay to acquire this loan
+--- Not used for clutering, just for evalutating value in prediciton phase
