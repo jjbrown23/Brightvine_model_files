@@ -45,7 +45,7 @@ Current Property Value (CurrentPropertyValue)
 --- Not used for clustering, just for calculating change
 
 Property Value Change (ValueChange)
----The percent change in property value since loan origination - (PropertyValue - CurrentPropertyValue) / PropertyValue
+---The percent change in property value since loan origination - (CurrentPropertyValue - PropertyValue) / PropertyValue * 100
 --- Not used for clustering, just for informing investors of good or bad investment
 
 Price (Price)
